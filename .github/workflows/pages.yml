@@ -24,9 +24,16 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      # enablement: true turns Pages on by itself on the first run instead of
+      # requiring a manual visit to Settings -> Pages. While the repository is
+      # private (and the account has no Pages for private repos) this step
+      # fails — that is expected and goes away once the repository is public.
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
       # The whole repository is published so that web/ keeps resolving its
-      # relative vendor/ paths. The demo lives at <page_url>web/.
+      # relative vendor/ paths. A root index.html redirects to web/, so the
+      # demo URL is the plain Pages URL.
       - uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
