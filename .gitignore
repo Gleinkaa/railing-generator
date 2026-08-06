@@ -29,3 +29,18 @@ Desktop.ini
 
 # Tooling
 .claude/
+
+# Erzeugte Artefakte
+#
+# reference/ ist ABSICHTLICH versioniert: die STEP-/OBJ-Exporte und die drei
+# Renderings dort sind der gepinnte Vertrag gegen die Grasshopper-Engine, an
+# dem die Regressionstests haengen. Was die Skripte darueber hinaus dort
+# ablegen, ist reproduzierbar und gehoert nicht ins Repository:
+#
+#   renders_muster/       34 Ansichten aus grasshopper/render_muster.py,
+#                         je ~1 MB — aus dem Skript gegen ein Live-Rhino
+#                         jederzeit neu erzeugbar.
+#   viewport_stairs.png   Kontrollaufnahme aus grasshopper/build_stairs*.py,
+#                         reines Debug-Artefakt eines Bauschritts.
+reference/renders_muster/
+grasshopper/viewport_stairs.png
