@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Railing Generator — parametrischer Geländer-Generator</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='13' font-size='13'>🛠</text></svg>">
+<link rel="stylesheet" href="./style.css">
+<script type="importmap">
+  { "imports": { "three": "./vendor/three.module.min.js" } }
+</script>
+</head>
+<body>
+<div id="app">
+  <aside id="panel">
+    <header>
+      <h1>Railing Generator</h1>
+      <p class="sub">34 Muster · OIB RL 4 / ÖNORM B 5371 · Stahl S235</p>
+    </header>
+    <div id="controls"></div>
+    <section class="box" id="bom-box">
+      <h2>Stückliste (BOM)</h2>
+      <div id="warnings"></div>
+      <table id="bom"></table>
+      <div id="notes"></div>
+    </section>
+    <section class="box">
+      <h2>Export</h2>
+      <label class="chk"><input type="checkbox" id="exp-stairs"> Treppe in 3D-Export einschließen</label>
+      <div class="btnrow">
+        <button id="exp-obj">OBJ (Mesh)</button>
+        <button id="exp-stl">STL</button>
+        <button id="exp-csv">Stückliste CSV</button>
+        <button id="exp-json">Konfiguration JSON</button>
+        <button id="exp-png">Ansicht PNG</button>
+      </div>
+      <label class="chk file-import">Konfiguration laden … <input type="file" id="imp-json" accept=".json"></label>
+      <p class="hint">Alle Maße in Millimetern. Ursprung am Fußpunkt der Treppenbasislinie.</p>
+    </section>
+    <footer>
+      <p>Stabwerk aus Katalog-Metergewichten, Blech und Holz über Volumen × Dichte.<br>
+      Geometrische Vorprüfung, <strong>keine Statik</strong> — Holmlast, Wind und
+      Verankerung sind nicht gerechnet. Vor der Fertigung fachlich prüfen.<br>
+      <a href="https://github.com/Gleinkaa/railing-generator">Quellcode</a> ·
+      AGPL-3.0 · kommerzielle Lizenz auf Anfrage.</p>
+    </footer>
+  </aside>
+  <main id="viewport"></main>
+</div>
+<script type="module" src="./main.js"></script>
+</body>
+</html>

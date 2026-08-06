@@ -1,0 +1,226 @@
+{
+ "c0": "b541a57a-c7f3-4675-9482-8bc4017a35be",
+ "cRun": "b84cb2c1-2cf6-48a6-adf6-983292783557",
+ "cRise": "1c165efc-7fae-4f5b-94cf-04efe5a9111f",
+ "ptA": "20e2cecf-fb6b-446f-8e1b-01e15c669336",
+ "ptB": "2a616710-54dd-4ab9-ada7-fcfe492ac4d2",
+ "line": "5f16fe59-4d0a-4c1e-9e1e-9239ef37ae08",
+ "gel": "0dc23c45-79cd-4c88-ab02-d4a647c7a58b",
+ "unt": "a77c58f3-0379-43ef-9d2e-04980537e76b",
+ "uz1": "54a52e08-a1ff-46c5-b4d9-4dd2c079c5a1",
+ "uz2": "4183d32b-2f8d-4404-9438-f7a228bdc66a",
+ "handrail": "b3238fc0-5c0e-43d0-9f3c-e82a11990f16",
+ "untergurt": "eed8edf1-f4ec-40e8-b926-8f128f5ba5ed",
+ "Lp": "41c610c5-93de-4f04-afb3-b9cd523b0f35",
+ "div": "a1e07c0c-49f0-4cbc-94ee-218cfe6b7d53",
+ "rnd": "2b9ba207-cc36-459c-a888-9dcbef39525d",
+ "sub": "c16a8d6d-1848-4d67-ab92-fafef4e66d23",
+ "dc": "0aa6ba77-d644-4382-8a4f-c1c37a120062",
+ "uzp": "41da7e14-6dbb-4fea-8118-2ee115d1c35f",
+ "posts": "33d4cf75-2359-4405-a1dd-96262aacd802",
+ "shat": "5951c23f-c4b4-4bd5-b0ae-bd63d6023d82",
+ "Lseg": "bb97f3af-6f01-4d52-bb23-81d025507083",
+ "fsl": "e2bf412f-fc96-48f2-ad8e-fea9cd7f6db7",
+ "div3": "338810dc-5c16-4109-9346-c5f8e0dc5af9",
+ "rnd3": "922f486f-d2bb-43a8-93b7-e189c4cf1f00",
+ "dc3": "fd4d5cac-81c5-4545-8a86-18dd20bd20d7",
+ "flat": "394c9006-9d7f-4fcd-8a74-29e77cd6d39a",
+ "cull": "204685f4-d331-4fb3-97a7-7a63352d8925",
+ "uzf": "03bdda16-72ab-4698-8376-82c50bb9f339",
+ "fill": "ffd82d90-d9a8-48bf-bc3d-bfd7ee264019",
+ "kgF": "9de06815-2578-4864-8157-5200d1fdb9fe",
+ "kgH": "d5f57b25-b375-4dd3-9d7d-1a0b2c0f7a08",
+ "kgP": "a48852f0-8d83-4f8d-a8e4-7b774129a085",
+ "total": "c75574e2-5545-4a64-b993-491fcdbccf79",
+ "panel": "72f35682-ea93-49bb-b010-1866807b272d",
+ "p6": {
+  "handrail": {
+   "catalog": "e19242f4-9ec8-4b2a-8724-8145043dd7a7",
+   "slider": "11c82347-80d8-4998-bd5a-338909f2ba9f",
+   "frame": "7c37618f-72ec-485e-94c8-652e09416dc9",
+   "circle": "b8a6a48e-cd02-4d49-9bbf-5c0d1875cc60",
+   "rect": "88f23602-ef28-490b-996e-85db6dcfe4f2",
+   "filt": "f8181b92-88ba-4b35-8d03-d8f5410d7a61",
+   "graft_rail": "543f8678-a504-496b-9bd4-27deea333bf9",
+   "graft_sec": "8602fa6c-1bcc-48d0-8cc5-05eb3dcdef2b",
+   "sweep": "8e2a63d4-fbf0-4b87-aa6a-ae60b82e3aab",
+   "vol": "3127391b-7e86-4d01-9ad4-0892a78bb530",
+   "sel": {
+    "Gate": "7a86c7b5-eb05-4113-9777-d1dce9171162",
+    "DimX": "91abd82f-2595-446f-8158-67828c6e574c",
+    "DimY": "2dfc0714-42c1-4ab9-8284-d52a37980c49",
+    "Kg": "2c1c852e-f028-4cac-ab10-957212c45e9a"
+   }
+  },
+  "post": {
+   "catalog": "8e39ab2f-c045-47c7-9b8b-8c29621e1d99",
+   "slider": "d309b62d-44b5-444c-9350-365ca2dc7d90",
+   "frame": "8f6b97ba-06ae-48ef-87ff-d3e5ee9e2d80",
+   "circle": "25ffe689-374d-48e1-8b2a-4561c8aeeff9",
+   "rect": "18ea8217-350f-4909-b9a5-01caf12c80e6",
+   "filt": "ddca1eab-b9db-4c0c-a1e0-fd272d019256",
+   "graft_rail": "3de0e29a-5164-45d6-b981-a13ab2e77138",
+   "graft_sec": "051d36c6-a862-4f04-97e2-a5223d6398c7",
+   "sweep": "f1d366d9-d842-4364-b8f1-c30af5e058f1",
+   "vol": "1cd6c339-5d60-4b79-9fdf-bc756305a91c",
+   "sel": {
+    "Gate": "b075e04d-ed3d-406c-9490-90f4a108440b",
+    "DimX": "3f7ff986-fb52-463b-89f5-ef08f2518700",
+    "DimY": "916bf667-6704-4036-b1eb-b4a2922180f3",
+    "Kg": "10d022f7-783f-4c81-8055-093d16055e3c"
+   }
+  },
+  "infill": {
+   "catalog": "f7c54b5b-d4d2-4c5a-9e0b-8bf003eb63a9",
+   "slider": "4db1f808-2440-48ab-8db1-e4bb6da5102e",
+   "frame": "d584c55e-6cdf-4888-bb48-fc794df66d9f",
+   "circle": "b0a42ff1-c828-4b08-af5f-0214e3f1bd38",
+   "rect": "7b360cfc-73f7-47e6-bcd7-81ce16069ab2",
+   "filt": "6a1db543-41f7-4e58-8492-54389e60d28a",
+   "graft_rail": "ec33966b-2113-4060-a82a-30681bff7436",
+   "graft_sec": "76dd2c31-1896-49a9-a96b-dca11b4f075c",
+   "sweep": "fcd97b00-7e9f-4c37-9af6-165163bf7adc",
+   "vol": "9f12cb7d-14b3-4d89-9f4e-c36c8cd6db68",
+   "sel": {
+    "Gate": "09e092c0-4111-4de8-a6fd-e754639afdb2",
+    "DimX": "17cd2ad6-9e7b-491b-a947-d2b62fd99d34",
+    "DimY": "68c69ea4-fe7d-44e2-a039-4d45b3de9392",
+    "Kg": "2aa7e9f6-447c-4597-8de9-eb3b21c3f1bb"
+   }
+  }
+ },
+ "p7": {
+  "sliders": {
+   "Montage-Typ": "5f25fba5-f96d-4ab9-8983-568166f0b7a5",
+   "Platte-Breite": "f7cc330e-8233-4e64-99a1-4a379b6ceaa8",
+   "Platte-Hoehe": "67171984-131c-41d2-ab63-1de321b8b30c",
+   "Platte-Breite-Top": "ca07f98c-c24e-4da5-92d0-29a1f11e8e4d",
+   "Platte-Tiefe": "f2e99f66-7b95-4f1d-8392-5d5611ad60db",
+   "Platte-Dicke": "c7d160cb-3f19-4058-9cf7-369c26bf6583",
+   "Bolzen-Durchmesser": "bae71f08-5a82-4db6-ab8a-c3e4de91595f",
+   "Bolzen-Laenge": "d4a30861-158f-4ad6-aeb6-594d3ec0176d",
+   "Bolzen-Offset-V": "9d3ce5b7-d37c-4de3-a4a0-15f9d1e9d4f6",
+   "Bolzen-Offset-XY": "0b93946e-64de-4474-82b0-25c568629206",
+   "Fascia-Offset": "7861978b-3efa-4abf-a60d-0a118b514883"
+  },
+  "evalBase": "41bb986d-028b-4f9a-a6a6-8142a7db74c2",
+  "edgeN1": "4692fe11-c2a6-40fe-a86f-7bcbb134f43e",
+  "fascPlate": "808b09db-c5d3-4467-8a67-9af4659100b1",
+  "fascBolts": "ee44401e-5439-47d0-a456-88392670f6e2",
+  "topPlate": "f0e16475-62c8-470e-aa13-14f52c032526",
+  "topBolts": "98db4d6e-ae17-4937-96f5-ac9d35338af5",
+  "platten": "086ace7d-0f7f-44bd-baa3-e2b7a31a589b",
+  "bolzen": "9633428f-6ffa-42e3-84bb-d98b0e4ae2f1"
+ },
+ "p8": {
+  "style": "55beff19-d656-4847-acf2-95fa042b5649",
+  "seed": "7ee4f409-a64e-4b18-9c82-51fe7f6e1661",
+  "dichte": "a683ec9a-3dd2-4588-a52f-3bdbc1bd5c66",
+  "auslage": "acfd7378-1944-464d-89ab-06fe3d38baeb",
+  "profil": "c53750d2-3611-4b85-b499-2c89dfc2e3c0",
+  "divLo": "f898b467-9d1c-4d2a-8461-711ad80f3b7f",
+  "divHi": "38a32c51-2b05-4a53-8a9a-e91c4d90427a",
+  "nCeil": "2ca3e950-509c-416b-ae79-715718f43c73",
+  "diagFlat": "e0e747ca-219f-4b3d-a85b-c8f85614d3d4",
+  "vAktiv": "2acb6771-e680-4e61-bcc0-0abf44f7685e",
+  "dAktiv": "bfb4241f-4221-4bdb-ab55-aeb5c6e5a9c2",
+  "vol": "7a5ee33f-96ae-4193-9bab-1768e92a6435",
+  "kgm": "9832c846-ee24-4aec-b560-40741c806eb2"
+ },
+ "p9": {
+  "kgD": "44a897b5-fdc9-4919-a79a-3165e45ded18",
+  "kgPlatten": "c6630974-80c1-46dd-a1af-8cc1e84289d9",
+  "kgBolzen": "157e8c19-be94-48c4-8a69-20d0f654ad4e",
+  "total_all": "9577c736-81b9-4009-ad63-d9096e0fd1e3"
+ },
+ "p10": {
+  "panel_x": -900,
+  "panel_y": 850,
+  "final": {
+   "Treppe": "e3fc6b31-82cf-47bc-9aa0-653615722c72",
+   "Handlauf_Volumen": "3127391b-7e86-4d01-9ad4-0892a78bb530",
+   "Posten_Volumen": "1cd6c339-5d60-4b79-9fdf-bc756305a91c",
+   "Fuellstab_Volumen": "9f12cb7d-14b3-4d89-9f4e-c36c8cd6db68",
+   "Diagonal_Volumen": "7a5ee33f-96ae-4193-9bab-1768e92a6435",
+   "Montage_Platten": "086ace7d-0f7f-44bd-baa3-e2b7a31a589b",
+   "Montage_Bolzen": "9633428f-6ffa-42e3-84bb-d98b0e4ae2f1",
+   "Untergurt_Volumen": "99fb334a-7783-4c0f-97e5-43e91c234eda"
+  }
+ },
+ "p11": {
+  "riser": "5bbe36e6-6655-4f1e-a665-da2ace1dfdc6",
+  "nosing": "c1e4a2ea-8a31-4d1b-8f16-faa0b588e6e1",
+  "untergurt": {
+   "catalog": "07759991-e2e8-41d4-8201-4c495f4d6913",
+   "slider": "d0d6ffc1-6b63-4b24-8b9e-fbbe4635fa43",
+   "frame": "07967d40-30b3-49c7-a7be-3125333b1ec3",
+   "filt": "edcf07c3-8dc0-45d3-b520-33c81141cdd1",
+   "sweep": "2922bc07-e000-47b6-8530-f85a932f21ee",
+   "vol": "99fb334a-7783-4c0f-97e5-43e91c234eda",
+   "kg": "aff6f674-1fc9-498d-b1b6-6ec21697f964",
+   "sel": {
+    "Gate": "f23c70ea-6834-4535-b25d-9b27b77fd4b3",
+    "DimX": "5ad55fa2-a9a5-431c-8698-ff22d36f72ab",
+    "DimY": "b39d0da1-5efb-48ad-9ab6-a8c95587c9d5",
+    "Kg": "5dc16f76-d701-44db-b4e1-a70c40ca599d"
+   }
+  },
+  "mount": {
+   "fascAmt": "cb283226-3437-478b-aacc-fd0662669ee7",
+   "fascMove": "261d2220-276c-46ce-86b1-7a4d7d7746f6",
+   "boltBase": "d2047bb1-369b-413a-b7b9-71c6ffbd2536",
+   "topPt": "d51410db-0330-4c61-8fc8-9ce5f9313c87",
+   "topBoltBase": "9b3b2a1d-0ed0-444a-9465-a26f0087d6eb"
+  },
+  "diag_pairs": [
+   "ccb2b100-d469-4f10-81fd-a47332bdf22a",
+   "42525cf9-53f1-469c-833b-07444d523c32"
+  ],
+  "bom_zero_guard": [
+   "6d0d2a71-c563-49b6-af9b-69455f049fc0",
+   "8c6d0701-b3f3-472e-bcd4-fe48fbf549b0",
+   "f3cb771e-8917-4053-965a-01e116e7ddce",
+   "36675b49-0a3c-487f-9c1b-a24bf228a2b3",
+   "e62ebb93-a190-4277-a31a-7479bdee1d27"
+  ]
+ },
+ "p12": {
+  "cap": "fcd9043e-7e0b-47e8-af97-5fec23461abd",
+  "safe": "0d1d0080-fef9-4b38-9f37-8fa877021cfe",
+  "is_stil2": "43c91919-2b7b-474e-b33e-00cd0e28b22e",
+  "eff": "2d964469-3c52-49c5-a9eb-becb1c63c95a",
+  "shift_mag": "d0d4b3c0-4c8b-4678-832a-30c2573346c3",
+  "loShift": "6698d9e2-31c4-4acd-87fc-86831db42e41"
+ },
+ "p14": {
+  "engine": "8f0f30e5-93a3-4ce6-aa23-1860e6b6de57",
+  "info": "6cd791f2-4ae9-4840-9c74-e38404026825",
+  "sliders": {
+   "Muster": "beb0bcaf-41a3-401f-bb28-0b3e42e4a6bd",
+   "Muster-Rapport-Faktor": "31cb749f-f7df-4bdf-bad3-b8b0d1ce8b5f",
+   "Oeffnung-max": "507a7c64-fb95-4429-8190-415cbdd71dbb",
+   "Holz-Dicke": "5af9fee9-59f1-44f4-9457-b2bfc95bc3fc",
+   "Holz-Luft": "68f3007d-75bd-4220-897e-f3c3b34bd23e",
+   "Holz-Auslage": "7cc735ce-492c-4c68-8a62-2bfb32cedc78",
+   "Blech-Dicke": "77dd8ef1-e849-4266-8615-1ba49f91222b",
+   "Blech-Steg": "a64c61ac-0d5d-46ca-a079-44915464c441",
+   "Blech-Rand": "26bca976-eef9-4baa-bf02-4ab9d4d555ef",
+   "Flach-Dicke": "aab65510-5e42-45d6-b66e-cdf5cdf7330a",
+   "Vierkant-Breite": "bc427056-2ba1-4492-b324-61cdde2f9544"
+  },
+  "kg_stahl": "6196749a-3a79-4d32-8689-bd2eba9e8420",
+  "kg_holz": "582e6bd3-8c2d-45ab-9196-7068e3aa86c4",
+  "rho_holz": "b8fc431c-0f50-4238-b3ab-3085d21ec9c5",
+  "add_sh": "40629862-3fa3-4c1a-a5cc-3579e0c88a96",
+  "total": "2a671fac-0bed-4941-a326-246a71d04eb4",
+  "nrm_one": "eb2043c0-a535-4525-bbb6-cbfa07416750",
+  "kletterwinkel": "385e7c01-a5a1-4bf5-ae4c-04313b289567",
+  "norm_panel": "796ed7c8-942b-4143-b630-f9edee3747a6",
+  "holz_param": "9c772e68-9685-44de-b3a3-c0fe8d6c2f4f",
+  "blech_param": "64061d78-33d4-4baf-b492-41ca6ff88c45",
+  "bom_rows": [
+   "f671f7a9-765b-45a9-b582-a3147a5904c0",
+   "0b797236-48f6-4865-b919-da612fd3f001"
+  ]
+ }
+}

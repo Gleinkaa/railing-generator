@@ -1,0 +1,114 @@
+:root {
+  --bg: #16181c;
+  --panel: #1e2126;
+  --box: #24282e;
+  --text: #e8eaee;
+  --muted: #9aa3ad;
+  --accent: #e8842c;
+  --warn: #e05555;
+  --ok: #62b06a;
+  --border: #32373f;
+  font-size: 14px;
+}
+* { box-sizing: border-box; }
+html, body, #app { height: 100%; margin: 0; }
+body {
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+#app { display: flex; }
+#panel {
+  width: 360px;
+  min-width: 300px;
+  overflow-y: auto;
+  background: var(--panel);
+  border-right: 1px solid var(--border);
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+#viewport { flex: 1; position: relative; min-width: 0; }
+#viewport canvas { display: block; }
+
+header h1 { font-size: 1.15rem; margin: 0; letter-spacing: 0.02em; }
+header .sub { margin: 4px 0 0; color: var(--muted); font-size: 0.8rem; }
+
+.box, details.box {
+  background: var(--box);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+details.box summary {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--text);
+  user-select: none;
+}
+details.box[open] summary { margin-bottom: 8px; }
+.box h2 { font-size: 0.95rem; margin: 0 0 8px; }
+
+.ctl { margin: 8px 0; }
+.ctl label { display: flex; justify-content: space-between; color: var(--muted); font-size: 0.82rem; margin-bottom: 3px; }
+.ctl label output { color: var(--text); font-variant-numeric: tabular-nums; }
+.ctl input[type=range] { width: 100%; accent-color: var(--accent); }
+.ctl select, .ctl input[type=number] {
+  width: 100%; background: var(--panel); color: var(--text);
+  border: 1px solid var(--border); border-radius: 5px; padding: 5px 6px;
+}
+.chk { display: flex; gap: 8px; align-items: center; color: var(--muted); font-size: 0.85rem; margin: 6px 0; }
+.chk input { accent-color: var(--accent); }
+
+.seedrow { display: flex; gap: 6px; }
+.seedrow input { flex: 1; }
+.seedrow button { flex: 0 0 auto; }
+
+button {
+  background: #2e333b; color: var(--text);
+  border: 1px solid var(--border); border-radius: 6px;
+  padding: 6px 10px; cursor: pointer; font-size: 0.85rem;
+}
+button:hover { border-color: var(--accent); color: var(--accent); }
+.btnrow { display: flex; flex-wrap: wrap; gap: 6px; }
+
+#bom { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
+#bom td, #bom th { padding: 3px 4px; text-align: right; border-bottom: 1px solid var(--border); }
+#bom td:first-child, #bom th:first-child { text-align: left; }
+#bom .cnt { color: var(--muted); }
+#bom tr.total td { font-weight: 700; border-top: 2px solid var(--accent); border-bottom: none; }
+
+#warnings .warn {
+  background: rgba(224, 85, 85, 0.12); border: 1px solid var(--warn);
+  color: #f0b0b0; border-radius: 6px; padding: 6px 8px; margin: 6px 0; font-size: 0.8rem;
+}
+#notes .note { color: var(--muted); font-size: 0.78rem; margin: 4px 0; }
+#notes .note::before { content: "ⓘ "; color: var(--accent); }
+
+/* Infotafel unter der Musterauswahl. Bewusst dreistufig abgesetzt:
+   Beschreibung (lesbar) — Normbewertung (Zitat aus der Engine, KEIN Urteil) —
+   offene Fertigungsentscheidung (Frage an den Betrieb, kein Normverstoss). */
+.patinfo { margin-top: 6px; }
+.patdesc { color: var(--text); font-size: 0.78rem; line-height: 1.35; }
+.patmeta { color: var(--muted); font-size: 0.72rem; margin-top: 3px; }
+.patnorm {
+  color: var(--muted); font-size: 0.72rem; line-height: 1.35; margin-top: 5px;
+  padding-left: 7px; border-left: 2px solid var(--accent);
+}
+.patopen {
+  color: #d9c07a; font-size: 0.72rem; line-height: 1.35; margin-top: 5px;
+  padding-left: 7px; border-left: 2px solid #b99b3f;
+}
+
+.hint { color: var(--muted); font-size: 0.75rem; }
+footer p { color: #6b7480; font-size: 0.72rem; line-height: 1.4; }
+.file-import input[type=file] { display: none; }
+.file-import { cursor: pointer; text-decoration: underline dotted; }
+
+@media (max-width: 760px) {
+  #app { flex-direction: column-reverse; }
+  #panel { width: 100%; max-height: 55%; }
+  #viewport { min-height: 45%; }
+}

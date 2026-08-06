@@ -1,0 +1,25 @@
+# Textdateien im Repository immer mit LF speichern, im Arbeitsverzeichnis
+# plattformüblich auschecken. Ohne diese Zeile hängt das Ergebnis an der
+# lokalen core.autocrlf-Einstellung jedes Mitwirkenden, und Diffs werden
+# irgendwann zu reinen Zeilenenden-Änderungen.
+* text=auto
+
+# Binärdateien nie durch Zeilenenden-Konvertierung schicken. PDFs aus manchen
+# Generatoren enthalten keine NUL-Bytes und werden von Gits Text-Heuristik
+# sonst fälschlich als Text behandelt — das korrumpiert sie beim Checkout.
+*.pdf  binary
+*.gh   binary
+*.ghx  binary
+*.png  binary
+*.jpg  binary
+*.3dm  binary
+
+# CAD-Austauschformate sind zwar Text, aber niemand liest ihre Diffs — und
+# eine Zeilenenden-Konvertierung kann Prüfsummen und Parser stören.
+*.stp  -text -diff
+*.step -text -diff
+*.obj  -text -diff
+*.stl  -text -diff
+
+# Die eingebundene three.js-Kopie nicht als eigenen Code zählen.
+web/vendor/** linguist-vendored
