@@ -44,11 +44,29 @@ Tests need Node ≥ 18:
 node --test web/test/
 ```
 
+### Single-file build
+
+For the cases where there is no web server — a wiki attachment, a USB stick, a
+mail to the fabricator — `tools/build-artifact.mjs` inlines the stylesheet, all
+ES modules and the vendored three.js into one ~650 kB HTML file that opens
+straight from the file system:
+
+```bash
+npm i --no-save esbuild        # only this packaging step needs a bundler
+node tools/build-artifact.mjs  # writes dist/
+```
+
+The app itself stays build-free; `web/` keeps running from a plain static
+server. `dist/railing-generator.html` is the standalone page,
+`dist/railing-generator.artifact.html` the same content without the
+`<html>`/`<head>`/`<body>` frame, for hosts that supply their own.
+
 ## Repository layout
 
 | Path | Contents |
 | --- | --- |
 | `web/` | Browser app — plain ES modules, vendored three.js, 3D viewer, BOM, compliance warnings, OBJ/STL/CSV/JSON export |
+| `tools/` | Packaging — `build-artifact.mjs` bundles `web/` into one self-contained HTML file |
 | `grasshopper/` | Rhino/Grasshopper Python engine, pattern implementations, profile handling, and the per-phase build scripts under `grasshopper/build/` |
 | `docs/` | Specification, norms research, steel-profile catalog, architecture notes |
 | `reference/` | Reference exports (OBJ/STEP/renders) and pinned masses used to catch regressions |

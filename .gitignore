@@ -44,3 +44,8 @@ Desktop.ini
 #                         reines Debug-Artefakt eines Bauschritts.
 reference/renders_muster/
 grasshopper/viewport_stairs.png
+
+#   dist/                 Einzeldatei-Bau der Web-App aus
+#                         tools/build-artifact.mjs, ~650 kB pro Datei und
+#                         vollstaendig aus web/ ableitbar.
+dist/
