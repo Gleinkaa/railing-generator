@@ -41,7 +41,7 @@ Serve from the repository root, not from `web/` — the app resolves its vendore
 Tests need Node ≥ 18:
 
 ```bash
-node --test web/test/
+node --test web/test/*.mjs
 ```
 
 ## Repository layout
